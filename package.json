@@ -1,0 +1,44 @@
+{
+  "name": "itsdrewstiles",
+  "version": "1.0.0",
+  "description": "A personal card for Meraj Sahebdar (@itsdrewstiles)",
+  "main": "/bin/card.js",
+  "bin": {
+    "itsdrewstiles": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsdrewstiles/card.git"
+  },
+  "homepage": "https://itsdrewstiles.github.io",
+  "scripts": {
+    "prepare": "yarn run build",
+    "build": "node build.js",
+    "start": "yarn run build && ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Meraj Sahebdar <itsdrewstiles@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/itsdrewstiles/card/issues"
+  },
+  "dependencies": {}
+}
