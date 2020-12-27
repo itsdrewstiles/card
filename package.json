@@ -1,44 +1,33 @@
 {
-  "name": "itsdrewstiles",
-  "version": "2.0.0",
-  "description": "A personal card for Meraj Sahebdar (@itsdrewstiles)",
+  "name": "merajsahebdar",
+  "version": "4.0.0",
+  "description": "A personal card for Meraj Sahebdar (@merajsahebdar)!",
   "main": "/bin/card.js",
-  "bin": {
-    "itsdrewstiles": "./bin/card.js"
-  },
+  "author": "Meraj Sahebdar",
+  "license": "MIT",
+  "homepage": "https://merajsahebdar.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsdrewstiles/card.git"
+    "url": "git+https://github.com/merajsahebdar/card.git"
   },
-  "homepage": "https://itsdrewstiles.github.io",
-  "scripts": {
-    "prepare": "yarn run build",
-    "build": "node build.js",
-    "start": "yarn run build && ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/merajsahebdar/card/issues"
   },
-  "keywords": [
-    "card",
-    "npm",
-    "npm card",
-    "npx",
-    "npx card",
-    "business card"
-  ],
-  "author": "Meraj Sahebdar <itsdrewstiles@gmail.com>",
-  "license": "MIT",
   "files": [
     "bin/card.js",
     "bin/output"
   ],
+  "bin": {
+    "merajsahebdar": "./bin/card.js"
+  },
+  "scripts": {
+    "prepare": "yarn run build",
+    "build": "node src/index.js",
+    "start": "yarn run build && ./bin/card.js"
+  },
+  "dependencies": {},
   "devDependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "standard": "^12.0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/itsdrewstiles/card/issues"
-  },
-  "dependencies": {}
+    "chalk": "^2.4.1"
+  }
 }
