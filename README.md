@@ -1,11 +1,10 @@
-It's me, Meraj Sahebdar
-=======================
+# It's me, Meraj Sahebdar
 
 *My personal visit card 👋*
 
-![My Visit Card](https://i.imgur.com/e1vXh8T.png)
+![My Visit Card](assets/images/shot.png)
 
 ## Usage
 ```
-npx itsdrewstiles
+npx merajsahebdar
 ```
